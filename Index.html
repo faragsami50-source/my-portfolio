@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Farag Samy | Executive Audit &amp; Governance</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600;700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface": "#f9f9f9",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed-dim": "#c8c6c5",
+                        "on-secondary-fixed": "#261900",
+                        "on-surface": "#1a1c1c",
+                        "on-tertiary-container": "#6383c5",
+                        "background": "#f9f9f9",
+                        "surface-tint": "#5f5e5e",
+                        "border-gray": "#E0E0E0",
+                        "surface-container-high": "#e8e8e8",
+                        "error-container": "#ffdad6",
+                        "on-background": "#1a1c1c",
+                        "stark-white": "#FFFFFF",
+                        "tertiary-container": "#001a42",
+                        "primary-fixed": "#e5e2e1",
+                        "on-primary-fixed": "#1c1b1b",
+                        "inverse-primary": "#c8c6c5",
+                        "surface-container-low": "#f3f3f3",
+                        "consulting-navy": "#002F6C",
+                        "secondary-fixed": "#ffdea5",
+                        "on-tertiary-fixed-variant": "#224583",
+                        "secondary": "#775a19",
+                        "error": "#ba1a1a",
+                        "primary-container": "#1c1b1b",
+                        "executive-gold": "#C5A059",
+                        "tertiary-fixed": "#d8e2ff",
+                        "charcoal-ink": "#121212",
+                        "on-secondary-container": "#785a1a",
+                        "secondary-container": "#fed488",
+                        "on-error": "#ffffff",
+                        "surface-bright": "#f9f9f9",
+                        "secondary-fixed-dim": "#e9c176",
+                        "surface-container-highest": "#e2e2e2",
+                        "surface-dim": "#dadada",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container": "#eeeeee",
+                        "on-tertiary-fixed": "#001a42",
+                        "on-primary": "#ffffff",
+                        "on-secondary-fixed-variant": "#5d4201",
+                        "surface-variant": "#e2e2e2",
+                        "on-primary-fixed-variant": "#474646",
+                        "outline-variant": "#c4c7c7",
+                        "on-surface-variant": "#444748",
+                        "tertiary": "#000000",
+                        "outline": "#747878",
+                        "inverse-surface": "#2f3131",
+                        "on-error-container": "#93000a",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed-dim": "#aec6ff",
+                        "on-primary-container": "#858383",
+                        "primary": "#000000",
+                        "inverse-on-surface": "#f1f1f1"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-mobile": "24px",
+                        "gutter": "32px",
+                        "margin-desktop": "64px",
+                        "unit": "8px",
+                        "container-max": "1440px"
+                    },
+                    "fontFamily": {
+                        "headline-xl": ["Noto Serif"],
+                        "headline-lg-mobile": ["Noto Serif"],
+                        "headline-lg": ["Noto Serif"],
+                        "body-xl": ["Inter"],
+                        "label-md": ["JetBrains Mono"],
+                        "display-lg": ["Noto Serif"],
+                        "quote": ["Noto Serif"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-xl": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                        "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "600"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "body-xl": ["20px", {"lineHeight": "32px", "fontWeight": "400"}],
+                        "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "500"}],
+                        "display-lg": ["72px", {"lineHeight": "80px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "quote": ["24px", {"lineHeight": "36px", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .brutalist-border { border: 1px solid #121212; }
+        .brutalist-border-thick { border: 2px solid #121212; }
+        .active-nav-underline { position: relative; }
+        .active-nav-underline::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 100%; height: 2px; background: currentColor; }
+        .hover-invert:hover { background-color: #121212; color: #ffffff; }
+        .grid-mesh { background-image: radial-gradient(#121212 0.5px, transparent 0.5px); background-size: 24px 24px; }
+        .bento-card { transition: all 0.2s ease-in-out; }
+        .bento-card:hover { transform: translate(-4px, -4px); box-shadow: 4px 4px 0px #121212; }
+        .image-grain { position: relative; }
+        .image-grain::after { content: ""; position: absolute; inset: 0; background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png"); opacity: 0.15; pointer-events: none; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md overflow-x-hidden">
+<!-- Top Navigation Bar -->
+<nav class="bg-stark-white dark:bg-charcoal-ink border-b-2 border-charcoal-ink dark:border-stark-white fixed top-0 w-full z-50">
+<div class="flex justify-between items-center w-full px-margin-desktop py-6 max-w-container-max mx-auto">
+<a class="font-headline-lg text-headline-lg font-bold tracking-tight text-charcoal-ink dark:text-stark-white uppercase" href="#">
+                Farag Samy
+            </a>
+<div class="hidden md:flex items-center space-x-12">
+<a class="text-primary dark:text-executive-gold font-bold border-b-2 border-primary dark:border-executive-gold pb-1 font-label-md text-label-md uppercase" href="#experience">Experience</a>
+<a class="text-on-surface-variant dark:text-primary-fixed-dim font-medium hover:text-primary dark:hover:text-stark-white transition-colors font-label-md text-label-md uppercase" href="#certifications">Certifications</a>
+<a class="text-on-surface-variant dark:text-primary-fixed-dim font-medium hover:text-primary dark:hover:text-stark-white transition-colors font-label-md text-label-md uppercase" href="#contact">Contact</a>
+</div>
+<button class="bg-charcoal-ink text-stark-white px-8 py-3 font-label-md text-label-md uppercase tracking-widest hover:bg-executive-gold transition-all duration-150 active:scale-95">
+                Request Dossier
+            </button>
+</div>
+</nav>
+<main class="pt-32">
+<!-- Hero Section -->
+<section class="max-w-container-max mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-12 border-b-2 border-charcoal-ink">
+<div class="md:col-span-7 py-20 pr-gutter flex flex-col justify-center">
+<span class="font-label-md text-label-md text-executive-gold uppercase tracking-[0.3em] mb-6">Executive Portfolio 2024</span>
+<h1 class="font-display-lg text-display-lg text-charcoal-ink mb-10 leading-none">
+                    Transforming Risks into <span class="text-executive-gold">Opportunities</span>.
+                </h1>
+<p class="font-body-xl text-body-xl text-on-surface-variant max-w-2xl mb-12">
+                    Through strong internal controls, operational excellence, and strategic audit leadership, Farag Samy secures enterprise value for global retail leaders.
+                </p>
+<div class="flex gap-4">
+<button class="bg-charcoal-ink text-stark-white px-10 py-5 font-label-md text-label-md uppercase brutalist-border hover:bg-executive-gold transition-colors">Strategic Advisory</button>
+<button class="bg-stark-white text-charcoal-ink px-10 py-5 font-label-md text-label-md uppercase brutalist-border hover:bg-charcoal-ink hover:text-stark-white transition-colors">Audit Methodology</button>
+</div>
+</div>
+<div class="md:col-span-5 border-l-2 border-charcoal-ink relative min-h-[600px] bg-surface-container overflow-hidden">
+<img class="absolute inset-0 w-full h-full object-cover grayscale brightness-90 contrast-125" data-alt="A high-contrast, black and white professional corporate portrait of an executive male in a tailored suit, Farag Samy, positioned against a minimalist architectural background. The lighting is dramatic and editorial, highlighting sharp facial features and a confident expression. The overall aesthetic is clean, sophisticated, and authoritative, echoing the visual language of high-end consulting firms." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDu_WPHjmK84RuOF5n77PWwLnyK8sRX_dWuuqBBhp1E3-tEJ684tiTUAFUeVfX-UAm3FLve6_R30h8z7hHEhA1-VzGjmcEokhcKD0IZ2sJd-VqNVE19RRzVqIm6N025gu5vvyUL3iIEcTWCApmtlGvBwKAn1ax1M0nOejlj35_8zw0FbqVB_SlfKfusNLdA69T4PrOcReeaeq2x1FgxRlUV6Ri-OoS6Vz3d6nDRHUnGU5HOddoEP9962vzgIqdOpM3UAKO6ku_eG4Nc"/>
+<div class="absolute bottom-0 left-0 p-8 bg-charcoal-ink text-stark-white w-full">
+<p class="font-label-md text-label-md tracking-tighter">FARAG SAMY / SENIOR AUDIT EXECUTIVE</p>
+</div>
+</div>
+</section>
+<!-- Corporate Positioning -->
+<section class="max-w-container-max mx-auto px-margin-desktop py-24 grid grid-cols-1 md:grid-cols-12 gap-gutter border-b-2 border-charcoal-ink">
+<div class="md:col-span-4">
+<h2 class="font-headline-lg text-headline-lg text-charcoal-ink uppercase">Positioning &amp;<br/>Governance</h2>
+</div>
+<div class="md:col-span-8">
+<p class="font-quote text-quote text-charcoal-ink leading-relaxed italic mb-8">
+                    "Audit is not a checklist; it is a strategic lens through which enterprise integrity is maintained and business agility is unlocked."
+                </p>
+<p class="font-body-xl text-body-xl text-on-surface-variant">
+                    As a senior audit executive and trusted advisor for large-scale retail organizations, Farag Samy specializes in institutionalizing rigor. His approach integrates Big 4 consulting precision with the pragmatic needs of modern enterprise, ensuring that compliance frameworks act as accelerators for growth rather than friction.
+                </p>
+</div>
+</section>
+<!-- Featured Expertise (Grid of 9) -->
+<section class="max-w-container-max mx-auto px-margin-desktop py-24">
+<div class="flex justify-between items-end mb-16">
+<h2 class="font-headline-lg text-headline-lg uppercase border-b-4 border-executive-gold pb-2">Core Competencies</h2>
+<span class="font-label-md text-label-md uppercase text-on-surface-variant">09 Domains of Authority</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 brutalist-border-thick">
+<!-- Row 1 -->
+<div class="p-10 brutalist-border bento-card bg-stark-white">
+<span class="material-symbols-outlined text-4xl text-executive-gold mb-6">policy</span>
+<h3 class="font-headline-lg text-headline-lg mb-4">Internal Audit</h3>
+<p class="text-on-surface-variant">Systematic evaluation of organizational processes to ensure operational efficiency and risk mitigation.</p>
+</div>
+<div class="p-10 brutalist-border bento-card bg-surface-container-low">
+<span class="material-symbols-outlined text-4xl text-executive-gold mb-6">shield</span>
+<h3 class="font-headline-lg text-headline-lg mb-4">ERM</h3>
+<p class="text-on-surface-variant">Strategic Enterprise Risk Management frameworks designed to identify and neutralize global threats.</p>
+</div>
+<div class="p-10 brutalist-border bento-card bg-stark-white">
+<span class="material-symbols-outlined text-4xl text-executive-gold mb-6">verified_user</span>
+<h3 class="font-headline-lg text-headline-lg mb-4">Compliance</h3>
+<p class="text-on-surface-variant">Adherence to international regulatory standards including SOX, GDPR, and industry-specific mandates.</p>
+</div>
+<!-- Row 2 -->
+<div class="p-10 brutalist-border bento-card bg-surface-container-low">
+<span class="material-symbols-outlined text-4xl text-executive-gold mb-6">analytics</span>
+<h3 class="font-headline-lg text-headline-lg mb-4">Data Analytics</h3>
+<p class="text-on-surface-variant">Leveraging quantitative insights to drive audit precision and uncover hidden operational anomalies.</p>
+</div>
+<div class="p-10 brutalist-border bento-card bg-stark-white">
+<span class="material-symbols-outlined text-4xl text-executive-gold mb-6">account_balance</span>
+<h3 class="font-headline-lg text-headline-lg mb-4">Governance</h3>
+<p class="text-on-surface-variant">Establishing structural accountability and transparency across multi-national corporate hierarchies.</p>
+</div>
+<div class="p-10 brutalist-border bento-card bg-surface-container-low">
+<span class="material-symbols-outlined text-4xl text-executive-gold mb-6">security</span>
+<h3 class="font-headline-lg text-headline-lg mb-4">Internal Controls</h3>
+<p class="text-on-surface-variant">Designing robust safeguarding mechanisms to protect assets and maintain reporting integrity.</p>
+</div>
+<!-- Row 3 -->
+<div class="p-10 brutalist-border bento-card bg-stark-white">
+<span class="material-symbols-outlined text-4xl text-executive-gold mb-6">monitoring</span>
+<h3 class="font-headline-lg text-headline-lg mb-4">Operational Audit</h3>
+<p class="text-on-surface-variant">Optimizing supply chain, retail operations, and logistics through rigorous performance evaluation.</p>
+</div>
+<div class="p-10 brutalist-border bento-card bg-surface-container-low">
+<span class="material-symbols-outlined text-4xl text-executive-gold mb-6">groups</span>
+<h3 class="font-headline-lg text-headline-lg mb-4">Leadership</h3>
+<p class="text-on-surface-variant">Mentoring high-performance audit teams and managing cross-functional stakeholder relations.</p>
+</div>
+<div class="p-10 brutalist-border bento-card bg-stark-white">
+<span class="material-symbols-outlined text-4xl text-executive-gold mb-6">psychology</span>
+<h3 class="font-headline-lg text-headline-lg mb-4">Advisory</h3>
+<p class="text-on-surface-variant">Strategic consulting for C-suite executives on organizational health and transformative change.</p>
+</div>
+</div>
+</section>
+<!-- Professional Recognition (Ceremony Gallery) -->
+<section class="bg-charcoal-ink text-stark-white py-32">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center mb-20">
+<div class="md:col-span-6">
+<h2 class="font-display-lg text-headline-xl uppercase text-stark-white leading-tight">Academic Excellence &amp; <br/><span class="text-executive-gold">Professional Honors</span></h2>
+</div>
+<div class="md:col-span-6 border-l border-on-surface-variant pl-8">
+<p class="font-body-xl text-body-xl text-primary-fixed-dim">
+                            A track record of distinction across prestigious institutions. Recognition of mastery in information systems and management governance.
+                        </p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<div class="space-y-8">
+<div class="brutalist-border border-on-surface-variant p-2 overflow-hidden aspect-video relative group">
+<img class="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVQLdgsIkBWBp4JE2y-KL69ThS1mq9sSdKoHnNX6u9NF4hcSjDd-wCSfJ7o3CZoVv72ZtTkxSw4XSU2uHWzDkqsjTVEDvGlobczjc7QEars6sHJ0Sb3huf88FBz9heCa-T63S0zVVdlqtO3fBuFG87j-Xhw7MQyL9-ffGG9PB-M8HBbcN2aqK_W0CXDG2ZKTcMwBXMoBXPn-WIAB0RkmUlr-nhkVgX8DgynyyNRc70Pv_TFgk12o_cAWXAgA98jdr4YhdVQbiRDwHb"/>
+<div class="absolute inset-0 bg-charcoal-ink/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+<p class="font-label-md text-label-md uppercase tracking-widest bg-executive-gold text-charcoal-ink px-4 py-2">Formal Recognition Ceremony</p>
+</div>
+</div>
+<div class="flex justify-between items-start border-t border-on-surface-variant pt-6">
+<div>
+<h4 class="font-headline-lg text-headline-lg">Honorary Distinction</h4>
+<p class="text-primary-fixed-dim mt-2">Achievement Award for Academic Performance &amp; Strategic Thinking.</p>
+</div>
+<span class="font-label-md text-label-md text-executive-gold">01 / 02</span>
+</div>
+</div>
+<div class="space-y-8">
+<div class="brutalist-border border-on-surface-variant p-2 overflow-hidden aspect-video relative group">
+<img class="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-700" data-alt="A wide shot of a prestigious university graduation ceremony, captured with an editorial, journalistic style. The scene is formal and elegant, featuring graduates in traditional academic regalia. The lighting is warm and celebratory, set within an grand, architecturally significant hall. The color palette is dominated by deep blues, blacks, and touches of gold, maintaining the executive branding." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDoavH7S7oMmbIcqjUsxekCNiGnojtuiHnQiq2rGL--g06_bLI2OLWx3CJgog8HOz7fBbjqEkiMfBArjgDvQVLT8pYVo1OfrTQ70e4kBZwmGcwesRsXLVpD8Pda6uVUlGx8StarvkEC2kW20N8BF3AfnZfO4I-w2x2Wil2CJOYTFw8qy1M4wq6J91NPsQ4Fk_QXVbUA0ZgIGbSA5AFkAS3wInXCcJAD4nZEnrisbfR90xG7fhY85uFRzzLmzKQFfCsJMeyrD6ubxr8O"/>
+<div class="absolute inset-0 bg-charcoal-ink/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+<p class="font-label-md text-label-md uppercase tracking-widest bg-executive-gold text-charcoal-ink px-4 py-2">Leadership Convocation</p>
+</div>
+</div>
+<div class="flex justify-between items-start border-t border-on-surface-variant pt-6">
+<div>
+<h4 class="font-headline-lg text-headline-lg">Alumni Leadership</h4>
+<p class="text-primary-fixed-dim mt-2">Commemorating the successful completion of executive management mandates.</p>
+</div>
+<span class="font-label-md text-label-md text-executive-gold">02 / 02</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Certifications Gallery -->
+<section class="py-32 bg-stark-white" id="certifications">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="mb-20 text-center">
+<h2 class="font-display-lg text-headline-xl uppercase inline-block border-b-8 border-charcoal-ink mb-4">Credentials</h2>
+<p class="font-label-md text-label-md tracking-widest text-on-surface-variant mt-4">VALIDATED EXPERTISE IN GLOBAL STANDARDS</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+<!-- MIS Degree -->
+<div class="brutalist-border p-12 hover:bg-charcoal-ink hover:text-stark-white transition-all duration-300 group">
+<div class="mb-20 h-16 w-16 bg-surface-container-high flex items-center justify-center brutalist-border group-hover:bg-executive-gold group-hover:border-executive-gold transition-colors">
+<span class="material-symbols-outlined text-3xl">school</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg mb-4">MIS Degree</h3>
+<p class="font-body-md text-on-surface-variant group-hover:text-primary-fixed-dim">Management Information Systems specialization from a top-tier academic institution.</p>
+</div>
+<!-- AUC English -->
+<div class="brutalist-border p-12 hover:bg-charcoal-ink hover:text-stark-white transition-all duration-300 group">
+<div class="mb-20 h-16 w-16 bg-surface-container-high flex items-center justify-center brutalist-border group-hover:bg-executive-gold group-hover:border-executive-gold transition-colors">
+<span class="material-symbols-outlined text-3xl">language</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg mb-4">AUC Certified</h3>
+<p class="font-body-md text-on-surface-variant group-hover:text-primary-fixed-dim">English Proficiency Certification from the American University in Cairo (AUC).</p>
+</div>
+<!-- Professional Development -->
+<div class="brutalist-border p-12 hover:bg-charcoal-ink hover:text-stark-white transition-all duration-300 group">
+<div class="mb-20 h-16 w-16 bg-surface-container-high flex items-center justify-center brutalist-border group-hover:bg-executive-gold group-hover:border-executive-gold transition-colors">
+<span class="material-symbols-outlined text-3xl">trending_up</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg mb-4">Audit CPD</h3>
+<p class="font-body-md text-on-surface-variant group-hover:text-primary-fixed-dim">Ongoing Professional Development in specialized audit methodologies.</p>
+</div>
+<!-- Leadership Certificates -->
+<div class="brutalist-border p-12 hover:bg-charcoal-ink hover:text-stark-white transition-all duration-300 group">
+<div class="mb-20 h-16 w-16 bg-surface-container-high flex items-center justify-center brutalist-border group-hover:bg-executive-gold group-hover:border-executive-gold transition-colors">
+<span class="material-symbols-outlined text-3xl">military_tech</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg mb-4">Leadership</h3>
+<p class="font-body-md text-on-surface-variant group-hover:text-primary-fixed-dim">Management and Leadership Excellence certifications for senior oversight.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Placeholder Section (Fieldwork & Presentation) -->
+<section class="max-w-container-max mx-auto px-margin-desktop py-32 border-t-2 border-charcoal-ink grid-mesh">
+<h2 class="font-label-md text-label-md uppercase tracking-[0.4em] mb-16 text-center">Portfolio Case Artifacts</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Executive Photo -->
+<div class="space-y-4">
+<div class="aspect-[3/4] bg-surface-container-highest brutalist-border overflow-hidden relative">
+<img class="w-full h-full object-cover grayscale brightness-50" data-alt="A focused close-up of a high-quality leather portfolio lying on a dark wooden desk, with a luxury fountain pen placed carefully beside it. The lighting is moody and dramatic, focusing on the textures of the materials. The scene implies preparation and high-level executive decision-making. The color palette is dark, sophisticated, and rich, featuring deep browns and blacks." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-AoQ1JmddkKi2zcEsQRh9GVHfNd8KEq4vZJK2sqVGPKUcGED1dUP2j2YBxw2vTmPAgcwVViFnrSHm_Nzm1DnFYMFtaHv5D8JeBi5EXbwVRIiNBFH0ZfapgS30pQQKZfMtao6mF36Dj6G3Y1GnT1c5R0uVil8L-3orn-l-lEoA6FyVu66JO0vN6EQfSzlwPUbp1Ul5yffR6G4Jrx1SLrN4J3tkbrjS2_Fs0fl0tMkYjby-1__K5K_uBBKhiRAL545XZZCm5Elf4uld"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<span class="font-label-md text-label-md text-stark-white border border-stark-white px-4 py-2 uppercase">Executive Media</span>
+</div>
+</div>
+<p class="font-label-md text-label-md text-on-surface-variant">01 / EXECUTIVE PHOTO</p>
+</div>
+<!-- Speaking Engagement -->
+<div class="space-y-4">
+<div class="aspect-[3/4] bg-surface-container-highest brutalist-border overflow-hidden relative">
+<img class="w-full h-full object-cover grayscale brightness-50" data-alt="A professional conference setting showing a podium and a large presentation screen in a dimly lit hall. The atmosphere is quiet and authoritative, suggesting a high-stakes speaking engagement. The shot is an wide architectural perspective, focusing on the geometry of the lecture hall. The aesthetic is clean and modern with a professional, executive atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuClcg9KPsMQVgf0-TuMgv5mVRjhbPqWtFH9q_-HgQAIvDfob_HoG5Xx_OdE44rx5QVG_jFrgQsp9aF1ZiaHBH7MbOpVmCm5wrX0G6W6AyqSJVhWxJWxYtBE-BXYb6OLTMhWZxirv7AXO_6RDrZMaxwNpbJhIcO6De0Lmd787559aWE6IUeHPUle9DcM5yEpP634Kp7LOiISM_Q0E49Vs_SQrGudztmeguu-j7SCsDpX9DS84_74YgNjhOyDHBK-XUffychShZHBinQM"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<span class="font-label-md text-label-md text-stark-white border border-stark-white px-4 py-2 uppercase">Public Speaking</span>
+</div>
+</div>
+<p class="font-label-md text-label-md text-on-surface-variant">02 / KEYNOTE ADDRESS</p>
+</div>
+<!-- Audit Fieldwork -->
+<div class="space-y-4">
+<div class="aspect-[3/4] bg-surface-container-highest brutalist-border overflow-hidden relative">
+<img class="w-full h-full object-cover grayscale brightness-50" data-alt="An abstract, high-contrast shot of a modern office interior with glass walls and sharp lines. The image captures the essence of rigorous fieldwork and investigation, with a focus on reflections and geometric structures. The lighting is cold and clinical, reinforcing a sense of scrutiny and professional detail. The style is strictly architectural and minimalist." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQGv8W8S8-RPt-SHffrkeL4gkWMlRSG4ithIrC_skRtjpVk2ed6xN_LIqFjC0c7CiJQ4KVWncLJd3n1eW38Ws-7wjgk_SJcFmds3PBjY--Pqi-fydlzwb0EXCWDleeL18lFIYtF5XwgHcNaxJiE4AjGk7sTJQZjFKvzljN81baw2zLD0Uz74MNYvvWWVzk3EuFaP-fZoQZjCFi4tGfqymJigZfsXq_s7SF5ttdR8TGpMzBzPua2EeKB-NSyUDXdIFLQie9qBUzYKoc"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<span class="font-label-md text-label-md text-stark-white border border-stark-white px-4 py-2 uppercase">Fieldwork Case</span>
+</div>
+</div>
+<p class="font-label-md text-label-md text-on-surface-variant">03 / SITE AUDIT</p>
+</div>
+<!-- Corporate Presentation -->
+<div class="space-y-4">
+<div class="aspect-[3/4] bg-surface-container-highest brutalist-border overflow-hidden relative">
+<img class="w-full h-full object-cover grayscale brightness-50" data-alt="A detailed view of a digital tablet displaying complex financial graphs and data analytics dashboards. The screen glow is reflected on a polished black surface. The image represents modern, data-driven audit leadership and the synthesis of technology and governance. The palette is dominated by dark charcoal and crisp white, with gold data highlights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJYeVD4TWC8G6ywAPsIXWFPwl7-UXMIfdSCh2aN_tHcn6zR65M6-EyG-QJN9enCXjO-Aj6rHWcvFmdeFO0YqePjB6S9g4dsc9huZKhTw7fwH-GPTTfarDyRe74NgkGZwX0MBD-anSs9r6mZptA77buAvU2ErGaJDc5ga-ImMV461Joy7xn3BwFI898tR3-YTSUYyM5rdNUp6psDB-oQbl17LTVq4loS60Jssfu2hcNZX32HisD4IoA_970yJvXp-ycsMxOWlcarLfG"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<span class="font-label-md text-label-md text-stark-white border border-stark-white px-4 py-2 uppercase">Data Review</span>
+</div>
+</div>
+<p class="font-label-md text-label-md text-on-surface-variant">04 / STRATEGIC REVIEW</p>
+</div>
+</div>
+</section>
+<!-- Final CTA / Contact -->
+<section class="py-32 bg-charcoal-ink text-stark-white overflow-hidden relative" id="contact">
+<div class="absolute right-0 top-0 opacity-10 pointer-events-none translate-x-1/2 -translate-y-1/2">
+<h2 class="font-display-lg text-[400px] leading-none uppercase">AUDIT</h2>
+</div>
+<div class="max-w-container-max mx-auto px-margin-desktop relative z-10">
+<div class="max-w-4xl">
+<h2 class="font-display-lg text-display-lg mb-12">Establish <span class="text-executive-gold">Authority</span>.</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
+<div class="border-l-2 border-executive-gold pl-8">
+<p class="font-label-md text-label-md uppercase mb-4 tracking-widest text-on-primary-container">For Board Inquiries</p>
+<p class="font-body-xl text-body-xl mb-6">Inquire about executive placement, strategic audit consulting, or speaking engagements.</p>
+<a class="text-executive-gold font-headline-lg underline underline-offset-8" href="mailto:contact@faragsamy.com">contact@faragsamy.com</a>
+</div>
+<div class="border-l-2 border-executive-gold pl-8">
+<p class="font-label-md text-label-md uppercase mb-4 tracking-widest text-on-primary-container">Digital Presence</p>
+<p class="font-body-xl text-body-xl mb-6">Explore professional insights and industry commentary on executive platforms.</p>
+<div class="flex gap-6">
+<a class="text-stark-white hover:text-executive-gold transition-colors font-label-md uppercase tracking-widest" href="#">LinkedIn</a>
+<a class="text-stark-white hover:text-executive-gold transition-colors font-label-md uppercase tracking-widest" href="#">Dossier</a>
+</div>
+</div>
+</div>
+<form class="space-y-8 max-w-2xl">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="space-y-2">
+<label class="font-label-md text-label-md uppercase text-primary-fixed-dim">Name</label>
+<input class="w-full bg-transparent border-b border-on-surface-variant focus:border-executive-gold focus:ring-0 py-4 font-body-md text-stark-white" placeholder="ENTER FULL NAME" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="font-label-md text-label-md uppercase text-primary-fixed-dim">Professional Email</label>
+<input class="w-full bg-transparent border-b border-on-surface-variant focus:border-executive-gold focus:ring-0 py-4 font-body-md text-stark-white" placeholder="ENTER WORK EMAIL" type="email"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="font-label-md text-label-md uppercase text-primary-fixed-dim">Inquiry Brief</label>
+<textarea class="w-full bg-transparent border-b border-on-surface-variant focus:border-executive-gold focus:ring-0 py-4 font-body-md text-stark-white" placeholder="DESCRIBE THE ENGAGEMENT SCOPE" rows="4"></textarea>
+</div>
+<button class="bg-executive-gold text-charcoal-ink px-12 py-5 font-label-md text-label-md uppercase tracking-widest hover:bg-stark-white transition-all duration-300">Submit Request</button>
+</form>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-charcoal-ink dark:bg-surface-container-lowest border-t-2 border-charcoal-ink dark:border-outline text-stark-white dark:text-charcoal-ink">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter px-margin-desktop py-12 w-full max-w-container-max mx-auto">
+<div class="space-y-6">
+<h2 class="font-headline-xl text-headline-xl uppercase">Farag Samy</h2>
+<p class="font-label-md text-label-md tracking-widest uppercase opacity-60">
+                    © 2024 FARAG SAMY. ALL RIGHTS RESERVED.<br/>EXECUTIVE AUDIT &amp; GOVERNANCE.
+                </p>
+</div>
+<div class="flex flex-col md:items-end justify-between">
+<div class="flex gap-8 mb-12">
+<a class="font-label-md text-label-md tracking-widest uppercase text-on-primary-container dark:text-on-surface-variant hover:text-executive-gold transition-colors" href="#">LinkedIn</a>
+<a class="font-label-md text-label-md tracking-widest uppercase text-on-primary-container dark:text-on-surface-variant hover:text-executive-gold transition-colors" href="#">Executive Summary</a>
+<a class="font-label-md text-label-md tracking-widest uppercase text-on-primary-container dark:text-on-surface-variant hover:text-executive-gold transition-colors" href="#">Legal Notice</a>
+<a class="font-label-md text-label-md tracking-widest uppercase text-on-primary-container dark:text-on-surface-variant hover:text-executive-gold transition-colors" href="#">Contact</a>
+</div>
+<div class="text-left md:text-right">
+<p class="text-on-primary-container dark:text-on-surface-variant font-label-md text-label-md uppercase">Big 4 Standard Methodology Applied</p>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        // Micro-interactions and effects
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Simple visibility observer for grid items
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.bento-card').forEach(card => {
+            card.classList.add('transition-all', 'duration-500', 'opacity-0', 'translate-y-10');
+            observer.observe(card);
+        });
+    </script>
+</body></html>
